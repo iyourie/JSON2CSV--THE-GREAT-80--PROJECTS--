@@ -1,44 +1,16 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 85vh;
-    font-family: monospace;
-    text-transform: capitalize;
+body {   display: flex;   justify-content: center;   align-items: center;   height: 85vh;   font-family: monospace;   text-transform: capitalize;}
+
+.material-symbols-outlined {    margin-bottom: 10px;    cursor: pointer;    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
 }
 
-.material-symbols-outlined {
-    margin-bottom: 10px;
-    cursor: pointer;
-    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+textarea {   display: inline-block;   padding: 5px 15px 200px;   line-height: 140%;   text-transform: capitalize;   font-weight: bold;
 }
 
-textarea {
-    display: inline-block;
-    padding: 5px 15px 200px;
-    line-height: 140%;
-    text-transform: capitalize;
-    font-weight: bold;
+button {    transform: translate(-595px, 310px);    -webkit-transform: translate(-595px, 310px);    -moz-transform: translate(-595px, 310px);    -ms-transform: translate(-595px, 310px);    -o-transform: translate(-595px, 310px);    cursor: pointer;
 }
 
-button {
-    transform: translate(-595px, 310px);
-    -webkit-transform: translate(-595px, 310px);
-    -moz-transform: translate(-595px, 310px);
-    -ms-transform: translate(-595px, 310px);
-    -o-transform: translate(-595px, 310px);
-    cursor: pointer;
+#h {    transform: rotate(180deg);    -webkit-transform: rotate(180deg);    -moz-transform: rotate(180deg);    -ms-transform: rotate(180deg);    -o-transform: rotate(180deg);
 }
 
-#h {
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-}
-
-section {
-    display: flex;
-    flex-direction: column;
+section {   display: flex;   flex-direction: column;
 }
